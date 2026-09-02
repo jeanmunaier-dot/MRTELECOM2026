@@ -1,8 +1,6 @@
 // ---- Config ----
-// Confirm this is a real WhatsApp number before going live — (31) 3378-5525 is
-// formatted here as a landline; if reservations happen on a different mobile
-// number, update it below (digits only, with country + area code).
-const WHATSAPP_NUMBER = "553133785525";
+// Mônica's personal WhatsApp — used for all quote/reservation CTAs on the site.
+const WHATSAPP_NUMBER = "5531996777771";
 
 // ---- Wire up every WhatsApp CTA with a prefilled message ----
 document.querySelectorAll("[data-whatsapp-link]").forEach((el) => {
