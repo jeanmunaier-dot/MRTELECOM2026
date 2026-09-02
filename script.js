@@ -50,7 +50,7 @@ const revealObserver = new IntersectionObserver(
 revealEls.forEach((el) => revealObserver.observe(el));
 
 // ---- Active nav link on scroll ----
-const sections = ["inicio", "sobre", "produtos", "contato"]
+const sections = ["inicio", "sobre", "produtos", "parceiros", "contato"]
   .map((id) => document.getElementById(id))
   .filter(Boolean);
 const navLinkEls = document.querySelectorAll(".nav-link");
