@@ -1,6 +1,6 @@
 // ---- Config ----
 // Mônica's personal WhatsApp — used for all quote/reservation CTAs on the site.
-const WHATSAPP_NUMBER = "5531996777771";
+const WHATSAPP_NUMBER = "5531999677771";
 
 // ---- Wire up every WhatsApp CTA with a prefilled message ----
 document.querySelectorAll("[data-whatsapp-link]").forEach((el) => {
