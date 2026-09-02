@@ -284,6 +284,7 @@ main > section{ padding: 110px 24px; max-width:1180px; margin:0 auto; }
   text-align:center; padding: 36px 24px 120px; color: var(--muted); font-size:.85rem;
   display:flex; flex-direction:column; gap:6px;
 }
+.footer-credit{ font-size:.75rem; opacity:.65; }
 
 /* ---------- Floating WhatsApp ---------- */
 .whatsapp-float{
